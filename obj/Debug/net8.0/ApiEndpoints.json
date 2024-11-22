@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "Controllers.CleanEnergyController",
+    "Method": "GetCleanEnergies",
+    "RelativePath": "CleanEnergy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Controllers.CleanEnergyController",
+    "Method": "PostCleanEnergy",
+    "RelativePath": "CleanEnergy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cleanEnergy",
+        "Type": "Models.CleanEnergy",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Controllers.CleanEnergyController",
+    "Method": "DeleteCleanEnergy",
+    "RelativePath": "CleanEnergy",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Controllers.CleanEnergyController",
+    "Method": "AtualizarCleanEnergy",
+    "RelativePath": "CleanEnergy/(id",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cleanEnergy",
+        "Type": "Models.CleanEnergy",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Controllers.HealthController",
+    "Method": "GetStatus",
+    "RelativePath": "Health",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
